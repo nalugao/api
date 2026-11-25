@@ -31,4 +31,10 @@ public class Product {
         this.preco = dados.preco();
         this.quantidade = dados.quantidade();
     }
+
+    public void atualizarInformacoes(DadosAtualizaProduct dados) {
+        this.nome = dados.nome();
+        this.quantidade = dados.quantidade();
+        this.preco = dados.preco();
+    }
 }
